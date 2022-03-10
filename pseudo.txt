@@ -1,0 +1,19 @@
+step1:
+
+create an array which stores the address of node
+
+
+step 2:
+store the address of head node in the array and move to next node
+
+step 3:
+if node is NULL then return 'NO',i.e there is no loop else,
+store the address of node into the array and move to next node
+
+step 4:
+check whether the address of node is present in the array,
+if 'YES' then there is a loop and return 'YES', else move to step 3.
+
+  
+
+
