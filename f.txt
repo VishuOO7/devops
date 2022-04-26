@@ -1,1 +1,23 @@
 git rebase -i HEAD ~3
+
+git rebase [-i | --interactive] [<options>] [--exec <cmd>]
+	[--onto <newbase> | --keep-base] [<upstream> [<branch>]]
+git rebase [-i | --interactive] [<options>] [--exec <cmd>] [--onto <newbase>]
+	--root [<branch>]
+git rebase (--continue | --skip | --abort | --quit | --edit-todo | --show-current-patch)
+
+git rebase master
+git rebase master topic
+
+git rebase --onto master topicA topicB
+
+git add <filename>
+
+git rebase --continue
+
+
+
+git rebase -i HEAD~3
+
+git merge --squash target_branch_name
+
